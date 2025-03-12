@@ -1,0 +1,55 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="index.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+      
+      <div class="boss-contain">
+        <div class="container-home">
+          <h3>HOME</h3>
+
+          <div class="score-container">
+            <h1 id="score-h-el">0</h1>
+          </div>
+
+          <div class="btn-container">
+            <button class="button" id="add1" onclick="hAdd1()">+1</button>
+            <button class="button" id="add2" onclick="hAdd2()">+2</button>
+            <button class="button" id="add3" onclick="hAdd3()">+3</button>
+          </div>
+        </div>
+
+        <div class="setting-btns">
+          <button id="new-game-btn" class="button" onclick="newGame()">NEW GAME</button>
+          <h3 id="display">00:00:00</h3>
+          <div class="time-container"> 
+            <button class="start-btn" id="startTime" onclick="startT()">START</button>
+            <button class="stop-btn" id="stopTime" onclick="stopT()">STOP</button>
+            <button class="reset-btn" id="resetTime" onclick="resetTime()">RESET</button>
+          </div>
+
+        </div>
+
+        <div class="container-guest">
+          <h3>GUEST</h3>
+
+          <div class="score-container">
+            <h1 id="score-g-el">0</h1>
+          </div>
+
+          <div class="btn-container">
+            <button class="button" id="add1" onclick="gAdd1()">+1</button>
+            <button class="button" id="add2" onclick="gAdd2()">+2</button>
+            <button class="button" id="add3" onclick="gAdd3()">+3</button>
+          </div>
+                                
+        </div>
+      
+      </div>
+
+      <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: url('cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') format('truetype');
+
+}
+
+body {   
+  background-color: #047857;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ 
+h3 {
+  color: #111827;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: #F94F6D;
+  font-family: "CursedTimerUlil-Aznm";
+}
+
+.boss-contain {
+  width: 800px;
+  height: 325px;
+  background-color: #D97706;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  border: 5px solid black;
+}
+
+.score-container {
+  background-color: #111827;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: auto 30px; 
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  font-size: 50px;
+}
+.btn-container {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  margin: 10px 30px 10px 30px; 
+}
+.button {
+  font-family: "CursedTimerUlil-Aznm"; 
+  font-size: 25px;
+  color: #F94F6D;
+  border: 3px solid #111827;
+  background-color: #111827;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#new-game-btn {
+  height: 50px;
+  font-family: "Orbitron", sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; 
+}
+
+.setting-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  margin: auto;
+}
+#startTime, #stopTime, #resetTime {
+  font-size: 18px;
+  height: 50px;
+  padding: 5px 8px;
+  color: #F94F6D;
+  border: 3px solid #111827;
+  background-color: #111827;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+
+#timer-el {
+  color: #F94F6D;
+  border: 5px solid black;
+  background-color: black;
+  font-size: 45px; 
+  padding-bottom: 5px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  border-radius: 10px;
+}
